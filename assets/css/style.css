@@ -1,0 +1,173 @@
+.nav-wrapper {
+  /*border-bottom:1px solid black;*/
+  z-index: 300;
+  overflow: auto;
+  position: fixed;
+  top: 0;
+  background-color: white;
+  width: 100%; }
+  .nav-wrapper .nav-main {
+    margin: 0;
+    padding: 0; }
+    .nav-wrapper .nav-main li {
+      display: inline;
+      float: left; }
+      .nav-wrapper .nav-main li a {
+        font-family: GothamMedium;
+        color: #3385FF;
+        display: block;
+        padding: 20px;
+        text-decoration: none; }
+        .nav-wrapper .nav-main li a:hover {
+          background-color: #000060; }
+      .nav-wrapper .nav-main li#nav-address a {
+        font-size: 20;
+        color: #000060;
+        font-family: Nexa Rust Script L;
+        /*font-size: 25px;*/ }
+        .nav-wrapper .nav-main li#nav-address a:hover {
+          background-color: white;
+          color: #000060; }
+
+.image-resize {
+  width: 1400px;
+  max-width: 100%;
+  max-height: 100%;
+  height: 300px; }
+
+.imagefullpg {
+  background: url(mages/philly1.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  max-width: 100%;
+  max-height: 100%; }
+
+.image-bel {
+  max-width: 700px; }
+
+.down-arrow {
+  position: absolute;
+  top: 520px;
+  max-width: 600px;
+  margin-left: 50%;
+  transform: translateX(-50%); }
+
+.down2-arrow {
+  position: absolute;
+  top: 1055px;
+  max-width: 600px;
+  margin-left: 50%;
+  transform: translateX(-50%); }
+
+body {
+  margin-left: 0;
+  margin-right: 0; }
+
+.intro {
+  position: absolute;
+  top: 155px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap; }
+
+#type1 {
+  font-size: 60px;
+  font-family: Nexa Rust Script L;
+  text-align: center;
+  width: 100%;
+  margin: 0 auto;
+  color: white;
+  text-shadow: 3px 3px #000060; }
+
+#type2 {
+  font-size: 20px;
+  font-family: GothamMedium;
+  text-align: right;
+  width: 100%;
+  margin: 0 auto;
+  color: #1C50E2; }
+
+#type3 {
+  position: absolute;
+  top: 250px;
+  max-width: 570px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-size: 19px;
+  font-family: GothamLight;
+  text-align: center;
+  color: #FFFFFF; }
+
+.location-head {
+  position: absolute;
+  /* top: 155px;*/
+  margin-left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap; }
+
+#peru-head {
+  position: relative;
+  top: 110px;
+  font-size: 90px;
+  font-family: Nexa Rust Script L;
+  /*text-align: center;*/
+  width: 100%;
+  text-shadow: 3px 3px #000060;
+  margin: 0 auto;
+  color: white; }
+
+#Button {
+  position: absolute;
+  top: 300px;
+  margin-left: 50%;
+  transform: translateX(-50%);
+  font-size: 20px;
+  font-family: GothamMedium;
+  color: white; }
+
+h1 {
+  font-family: GothamMedium;
+  color: #9EC5D6; }
+
+.box {
+  background-color: #000060;
+  padding: 20px; }
+
+.box2 {
+  background-color: #9EC5D6;
+  padding: 2px;
+  font-family: GothamMedium; }
+  .box2 li {
+    display: inline;
+    color: white;
+    padding: 25px; }
+    .box2 li a {
+      text-decoration: none;
+      color: white; }
+      .box2 li a:hover {
+        color: #000060; }
+
+.textdec {
+  font-family: GothamLight;
+  font-size: 20px;
+  max-width: 600px;
+  float: left;
+  padding: 30px;
+  /*max-width: 400px;*/
+  /* background-color: #000060; padding: 20px;*/ }
+
+.map {
+  padding: 40px; }
+
+.textbox {
+  margin: 30px; }
+
+.list-padding {
+  padding: 30px; }
+
+.page-chinatown {
+  overflow: auto; }
+
+/*# sourceMappingURL=style.css.map */

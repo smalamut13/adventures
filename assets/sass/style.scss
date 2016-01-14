@@ -1,0 +1,148 @@
+@import 'partials/nav';
+@import 'partials/img';
+@import 'partials/downarrow';
+
+body {
+	margin-left: 0;
+	margin-right: 0;
+}
+
+.intro {
+	position: absolute;
+	top: 155px;
+	margin-left: 50%;
+	transform: translateX(-50%);
+	white-space: nowrap;
+
+}
+
+#type1{
+   font-size: 60px;
+   font-family: Nexa Rust Script L;
+   text-align: center;
+   width: 100%;
+   margin: 0 auto;
+   color:white;
+   text-shadow: 3px 3px #000060;
+}
+
+#type2{
+
+   font-size: 20px;
+   font-family: GothamMedium;
+   text-align: right;
+   width: 100%;
+   margin: 0 auto;
+   color:#1C50E2;
+
+}
+
+#type3{
+   position: absolute;
+   top: 250px;
+
+   max-width: 570px;
+   margin-left: 50%;
+   transform: translateX(-50%);
+   
+  
+   font-size: 19px;
+   font-family: GothamLight;
+   text-align: center;
+   color:#FFFFFF;
+ 
+}
+
+.location-head{
+   position: absolute;
+  /* top: 155px;*/
+   margin-left: 50%;
+   transform: translateX(-50%);
+   white-space: nowrap;
+
+}
+
+#peru-head{
+   position: relative;
+   top: 110px;
+   font-size: 90px;
+   font-family: Nexa Rust Script L;
+   /*text-align: center;*/
+   width: 100%;
+   text-shadow: 3px 3px #000060;
+   margin: 0 auto;
+   color:white;
+  
+}
+
+#Button{
+   position: absolute;
+   top: 300px;
+   margin-left: 50%;
+   transform: translateX(-50%);
+   font-size: 20px;
+   font-family: GothamMedium;
+   color:white;
+}
+
+h1{
+   font-family: GothamMedium;
+   color:#9EC5D6;
+}
+
+.box{
+   background-color: #000060;
+   padding:20px;
+}
+
+.box2{
+   background-color: #9EC5D6;
+   padding: 2px;
+   font-family: GothamMedium;
+
+      li {
+         display: inline;
+         color: white;
+         padding: 25px;
+
+             a {
+               text-decoration: none;
+               color: white;
+
+               &:hover{
+               color:#000060;
+
+         }
+      }
+   }
+}
+
+
+.textdec{
+   font-family: GothamLight;
+   font-size: 20px;
+   max-width: 600px;
+   float: left;
+   padding: 30px;
+   /*max-width: 400px;*/
+/* background-color: #000060; padding: 20px;*/
+
+
+}
+
+
+.map{
+   padding: 40px;
+}
+
+.textbox{
+   margin: 30px;
+}
+
+.list-padding{
+   padding:30px;
+}
+
+.page-chinatown{
+   overflow: auto;
+}

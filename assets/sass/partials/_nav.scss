@@ -1,0 +1,52 @@
+.nav-wrapper {
+	/*border-bottom:1px solid black;*/
+	z-index:300;
+	overflow:auto;
+	position: fixed;
+	top:0;
+	background-color: white;
+	width: 100%;
+
+
+	
+	.nav-main {
+		margin:0;
+		padding:0;
+
+		li {
+			display: inline;
+			float:left;
+
+			a {
+				font-family: GothamMedium;
+				color: #3385FF;
+				display:block;
+				padding:20px;
+				text-decoration: none;
+
+				&:hover{
+					background-color:#000060;
+					
+
+				}
+			}
+
+
+			&#nav-address a {
+				font-size:20;
+				color: #000060;
+				font-family: Nexa Rust Script L;
+				/*font-size: 25px;*/
+
+				&:hover {
+					background-color:white;
+					color:#000060;
+
+				}
+			}
+		}
+	}
+}
+
+
+
